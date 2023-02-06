@@ -1,94 +1,264 @@
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.7)
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.1
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x0000022507324E50>
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with U1 as a reference
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint MH4 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint MH1 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint MH2 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:Footprint MH3 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'U1'
-Located on: ['Relay_group1']
-With filenames: ['Relay_group.kicad_sch']
-With sheet_id:['Relay_group1']
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
-[('U4', ['Relay_group4']), ('U8', ['Relay_group8']), ('U1', ['Relay_group1']), ('U6', ['Relay_group6']), ('U2', ['Relay_group2']), ('U5', ['Relay_group5']), ('U3', ['Relay_group3']), ('U7', ['Relay_group7'])]
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Relay_group1', file:'Relay_group.kicad_sch'
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Relay_group2'], ['Relay_group3'], ['Relay_group4'], ['Relay_group5'], ['Relay_group6'], ['Relay_group7'], ['Relay_group8']]
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['Relay_group1']
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(1883, 80)
-02-03 11:40:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(1519, 80)
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Relay_group1', file:'Relay_group.kicad_sch'
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Relay_group2'], ['Relay_group3'], ['Relay_group4'], ['Relay_group5'], ['Relay_group6'], ['Relay_group7'], ['Relay_group8']]
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 157:Replicating layout
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['Relay_group2'], ['Relay_group3'], ['Relay_group4'], ['Relay_group5'], ['Relay_group6'], ['Relay_group7'], ['Relay_group8']]
-on level: ['Relay_group1']
-with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
-02-03 11:40:27 root 243:updating GUI message: 'Preparing for replication'
-02-03 11:40:27 root 248:updating GUI with: 0
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
-02-03 11:40:27 root 248:updating GUI with: 0
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
-02-03 11:40:27 root 248:updating GUI with: 62
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
-02-03 11:40:27 root 243:updating GUI message: 'Replicating footprints'
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group2']
-02-03 11:40:27 root 248:updating GUI with: 13
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group3']
-02-03 11:40:27 root 248:updating GUI with: 27
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group4']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group5']
-02-03 11:40:27 root 248:updating GUI with: 53
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group6']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group7']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Relay_group8']
-02-03 11:40:27 root 248:updating GUI with: 97
-02-03 11:40:27 root 243:updating GUI message: 'Replicating tracks'
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group2']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group3']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group4']
-02-03 11:40:27 root 248:updating GUI with: 28
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group5']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group6']
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group7']
-02-03 11:40:27 root 248:updating GUI with: 84
-02-03 11:40:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Relay_group8']
-02-03 11:40:28 root 243:updating GUI message: 'Replicating zones'
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group2']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group3']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group4']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group5']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group6']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group7']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Relay_group8']
-02-03 11:40:28 root 243:updating GUI message: 'Replicating text'
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Replicating text
-02-03 11:40:28 root 248:updating GUI with: 0
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group2']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group3']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group4']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group5']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group6']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group7']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Relay_group8']
-02-03 11:40:28 root 243:updating GUI message: 'Replicating drawings'
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating drawings
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group2']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group3']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group4']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group5']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group6']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group7']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Relay_group8']
-02-03 11:40:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 177:Replication complete
+02-06 15:24:25 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:26 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:26 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:26 svg2mod 278:  Inlining 1 segments...
+02-06 15:24:26 svg2mod 329:  Writing Text with 63 points
+02-06 15:24:26 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:26 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:26 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:26 svg2mod 278:  Inlining 3 segments...
+02-06 15:24:26 svg2mod 329:  Writing Text with 99 points
+02-06 15:24:26 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:27 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:27 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:27 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:27 svg2mod 278:  Inlining 4 segments...
+02-06 15:24:27 svg2mod 329:  Writing Text with 119 points
+02-06 15:24:27 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:27 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:27 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:27 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:28 svg2mod 278:  Inlining 5 segments...
+02-06 15:24:28 svg2mod 329:  Writing Text with 147 points
+02-06 15:24:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:28 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:28 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:28 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:28 svg2mod 278:  Inlining 6 segments...
+02-06 15:24:28 svg2mod 329:  Writing Text with 188 points
+02-06 15:24:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:29 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:29 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:29 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:29 svg2mod 278:  Inlining 5 segments...
+02-06 15:24:29 svg2mod 329:  Writing Text with 147 points
+02-06 15:24:29 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:29 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:24:29 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:29 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:29 svg2mod 278:  Inlining 6 segments...
+02-06 15:24:29 svg2mod 329:  Writing Text with 162 points
+02-06 15:24:29 svg2mod 329:  Writing Text with 12 points
+02-06 15:24:31 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:24:31 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:24:31 svg2mod 278:  Inlining 6 segments...
+02-06 15:24:31 svg2mod 329:  Writing Text with 162 points
+02-06 15:24:31 svg2mod 329:  Writing Text with 12 points
+02-06 15:25:54 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:55 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:55 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:55 svg2mod 278:  Inlining 1 segments...
+02-06 15:25:55 svg2mod 329:  Writing Text with 30 points
+02-06 15:25:55 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:55 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:55 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:55 svg2mod 278:  Inlining 2 segments...
+02-06 15:25:55 svg2mod 329:  Writing Text with 59 points
+02-06 15:25:55 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:55 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:55 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:55 svg2mod 278:  Inlining 3 segments...
+02-06 15:25:55 svg2mod 329:  Writing Text with 74 points
+02-06 15:25:58 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:58 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:58 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:58 svg2mod 278:  Inlining 4 segments...
+02-06 15:25:58 svg2mod 329:  Writing Text with 82 points
+02-06 15:25:58 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:58 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:58 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:58 svg2mod 278:  Inlining 6 segments...
+02-06 15:25:58 svg2mod 329:  Writing Text with 134 points
+02-06 15:25:58 svg2mod 329:  Writing Text with 21 points
+02-06 15:25:58 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:59 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:59 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:59 svg2mod 278:  Inlining 9 segments...
+02-06 15:25:59 svg2mod 329:  Writing Text with 202 points
+02-06 15:25:59 svg2mod 329:  Writing Text with 21 points
+02-06 15:25:59 svg2mod 329:  Writing Text with 12 points
+02-06 15:25:59 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:25:59 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:25:59 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:25:59 svg2mod 278:  Inlining 10 segments...
+02-06 15:25:59 svg2mod 329:  Writing Text with 227 points
+02-06 15:25:59 svg2mod 329:  Writing Text with 21 points
+02-06 15:25:59 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:01 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:01 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:01 svg2mod 278:  Inlining 10 segments...
+02-06 15:26:01 svg2mod 329:  Writing Text with 227 points
+02-06 15:26:01 svg2mod 329:  Writing Text with 21 points
+02-06 15:26:01 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:24 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:24 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:24 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:24 svg2mod 278:  Inlining 1 segments...
+02-06 15:26:24 svg2mod 329:  Writing Text with 63 points
+02-06 15:26:24 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:24 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:24 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:24 svg2mod 278:  Inlining 2 segments...
+02-06 15:26:24 svg2mod 329:  Writing Text with 85 points
+02-06 15:26:24 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:24 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:25 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:25 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:25 svg2mod 278:  Inlining 3 segments...
+02-06 15:26:25 svg2mod 329:  Writing Text with 99 points
+02-06 15:26:25 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:25 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:25 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:25 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:25 svg2mod 278:  Inlining 4 segments...
+02-06 15:26:25 svg2mod 329:  Writing Text with 107 points
+02-06 15:26:25 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:26 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:26 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:26 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:26 svg2mod 278:  Inlining 6 segments...
+02-06 15:26:26 svg2mod 329:  Writing Text with 122 points
+02-06 15:26:26 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:27 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:27 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:27 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:27 svg2mod 278:  Inlining 7 segments...
+02-06 15:26:27 svg2mod 329:  Writing Text with 141 points
+02-06 15:26:27 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:27 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:27 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:27 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:27 svg2mod 278:  Inlining 8 segments...
+02-06 15:26:27 svg2mod 329:  Writing Text with 165 points
+02-06 15:26:27 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:27 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:28 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:28 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:28 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:28 svg2mod 278:  Inlining 9 segments...
+02-06 15:26:28 svg2mod 329:  Writing Text with 185 points
+02-06 15:26:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:28 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:26:28 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:28 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:28 svg2mod 278:  Inlining 10 segments...
+02-06 15:26:28 svg2mod 329:  Writing Text with 210 points
+02-06 15:26:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:28 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:41 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:26:41 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:26:41 svg2mod 278:  Inlining 10 segments...
+02-06 15:26:41 svg2mod 329:  Writing Text with 210 points
+02-06 15:26:41 svg2mod 329:  Writing Text with 12 points
+02-06 15:26:41 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:30 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:31 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:31 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:31 svg2mod 278:  Inlining 10 segments...
+02-06 15:27:31 svg2mod 329:  Writing Text with 210 points
+02-06 15:27:31 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:31 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:33 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:33 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:33 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:33 svg2mod 278:  Inlining 6 segments...
+02-06 15:27:33 svg2mod 329:  Writing Text with 122 points
+02-06 15:27:33 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:34 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:34 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:34 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:34 svg2mod 278:  Inlining 4 segments...
+02-06 15:27:34 svg2mod 329:  Writing Text with 107 points
+02-06 15:27:34 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:35 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:35 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:35 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:35 svg2mod 278:  Inlining 6 segments...
+02-06 15:27:35 svg2mod 329:  Writing Text with 157 points
+02-06 15:27:35 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:35 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:35 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:35 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:35 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:35 svg2mod 278:  Inlining 7 segments...
+02-06 15:27:35 svg2mod 329:  Writing Text with 182 points
+02-06 15:27:35 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:35 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:36 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:36 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:36 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:36 svg2mod 278:  Inlining 9 segments...
+02-06 15:27:36 svg2mod 329:  Writing Text with 226 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:36 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:36 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:36 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:36 svg2mod 278:  Inlining 10 segments...
+02-06 15:27:36 svg2mod 329:  Writing Text with 251 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:36 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:37 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:37 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:37 svg2mod 278:  Inlining 10 segments...
+02-06 15:27:37 svg2mod 329:  Writing Text with 251 points
+02-06 15:27:37 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:37 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:37 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:49 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:49 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:49 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:49 svg2mod 278:  Inlining 1 segments...
+02-06 15:27:49 svg2mod 329:  Writing Text with 63 points
+02-06 15:27:50 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:50 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:50 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:50 svg2mod 278:  Inlining 2 segments...
+02-06 15:27:50 svg2mod 329:  Writing Text with 85 points
+02-06 15:27:50 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:51 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:51 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:51 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:51 svg2mod 278:  Inlining 4 segments...
+02-06 15:27:51 svg2mod 329:  Writing Text with 107 points
+02-06 15:27:51 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:51 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:52 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:52 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:52 svg2mod 278:  Inlining 5 segments...
+02-06 15:27:52 svg2mod 329:  Writing Text with 138 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:52 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:52 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:52 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:52 svg2mod 278:  Inlining 7 segments...
+02-06 15:27:52 svg2mod 329:  Writing Text with 182 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:52 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:52 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:52 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:52 svg2mod 278:  Inlining 9 segments...
+02-06 15:27:52 svg2mod 329:  Writing Text with 226 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:52 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:53 svg2mod 1217:Font "mplus-1mn-medium" does not natively support style "Regular" using "Path" instead
+02-06 15:27:53 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:53 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:53 svg2mod 278:  Inlining 10 segments...
+02-06 15:27:53 svg2mod 329:  Writing Text with 251 points
+02-06 15:27:53 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:53 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:53 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:56 svg2mod-unfiltered 253:Found SVG layer: F.SilkS
+02-06 15:27:56 svg2mod 254:  Detailed names: [F.SilkS]
+02-06 15:27:56 svg2mod 278:  Inlining 10 segments...
+02-06 15:27:56 svg2mod 329:  Writing Text with 251 points
+02-06 15:27:56 svg2mod 329:  Writing Text with 21 points
+02-06 15:27:56 svg2mod 329:  Writing Text with 12 points
+02-06 15:27:56 svg2mod 329:  Writing Text with 12 points

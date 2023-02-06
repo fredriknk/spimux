@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SPI-MUX")
+    (date "2023-02-06")
+    (rev "0.01")
+    (company "NMBU-Mina")
+    (comment 1 "F.N.Beilegaard")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)

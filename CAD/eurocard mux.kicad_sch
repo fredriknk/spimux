@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SPI-MUX")
+    (date "2023-02-06")
+    (rev "0.01")
+    (company "NMBU-Mina")
+    (comment 1 "F.N.Beilegaard")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x16" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 20.32 0)
@@ -3399,148 +3407,148 @@
       (reference "J4") (unit 1) (value "Screw_Terminal_01x16") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-16_1x16_P5.00mm_Horizontal")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K1") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K1") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K2") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K2") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K3") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K3") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K4") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K4") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K5") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K5") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K6") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K6") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K7") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K7") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K8") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K8") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K9") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K9") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K10") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K10") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K11") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K11") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/8cd40b3b-c9b0-45e1-81b3-71435bf09e9c/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K12") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K12") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K13") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K13") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K14") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K14") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K15") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K15") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K16") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K16") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K17") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K17") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/c81f298b-2a1a-455b-bee3-3058b7672038/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K18") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K18") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K19") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K19") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K20") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K20") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K21") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K21") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K22") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K22") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K23") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K23") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/f2cbc3d3-1347-4b02-9c4e-bb717d98f347/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K24") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K24") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K25") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K25") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K26") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K26") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K27") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K27") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K28") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K28") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K29") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K29") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/fb1d4833-ae76-4c52-9768-f487d2c3e527/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K30") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K30") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K31") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K31") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K32") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K32") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K33") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K33") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K34") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K34") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K35") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K35") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/0be0da5b-3bcb-46de-b225-e49e5ddaae37/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K36") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K36") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K37") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K37") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K38") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K38") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K39") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K39") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K40") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K40") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K41") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K41") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/3edcc05f-9d6e-413b-8c31-3b7c4ff495dc/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K42") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K42") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/737bf4b8-38a6-4790-88d7-7f5d866b794c/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K43") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K43") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/737bf4b8-38a6-4790-88d7-7f5d866b794c/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K44") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K44") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/737bf4b8-38a6-4790-88d7-7f5d866b794c/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K45") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K45") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/5b98d79e-88e7-4de7-8874-8cc295855432/a2e94658-837c-4aea-87ba-1c88a8c9b553"
-      (reference "K46") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_2P2T_10x6mm_TE_IMxxG")
+      (reference "K46") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/5b98d79e-88e7-4de7-8874-8cc295855432/54e47b7c-8655-4965-9eae-bfbcf4ef3aa4"
-      (reference "K47") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K47") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/45f15a63-9e0e-4154-a4e4-00ecdf23e68a/5b98d79e-88e7-4de7-8874-8cc295855432/70ca3bc2-f772-4a06-9e59-2688b653a1e1"
-      (reference "K48") (unit 1) (value "EE2-3NUH") (footprint "Relay_SMD:Relay_DPDT_Kemet_EE2_NUH")
+      (reference "K48") (unit 1) (value "AGQ200S12Z") (footprint "muxlib_footprints:Relay_2P2T_10x6mm_TE_IMxxG")
     )
     (path "/ffbc97a2-d788-464d-a072-bb4c29522c99/413b1bd2-f5f3-4f43-8828-25a0bed00fa2"
       (reference "U1") (unit 1) (value "TPIC6C596") (footprint "Package_SO:TSSOP-16_4.4x5mm_P0.65mm")
