@@ -1,0 +1,373 @@
+** Drc report for spimux.kicad_pcb **
+** Created on 2026-01-20T12:42:18+0100 **
+
+** Found 120 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1433 mm)
+    Rule: netclass 'Default'; error
+    @(138.0000 mm, 87.0000 mm): PCB text '4' on B.Cu
+    @(55.0000 mm, 85.0000 mm): Zone [Earth] on F.Cu, B.Cu and 2 more, priority 0
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(63.6975 mm, 130.8900 mm): Footprint J2
+    @(65.0000 mm, 108.0000 mm): Footprint JP1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(63.6975 mm, 130.8900 mm): Footprint J2
+    @(62.0000 mm, 107.9125 mm): Footprint JP2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(65.0475 mm, 130.8900 mm): Segment of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(66.0475 mm, 131.3900 mm): Segment of J2 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(97.6440 mm, 136.3820 mm): Footprint U5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 108.0000 mm): Footprint K50
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 117.0000 mm): Footprint K91
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(119.6440 mm, 136.3820 mm): Footprint U7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 117.0000 mm): Footprint K75
+[lib_footprint_mismatch]: Footprint 'VSSOP-8_2.3x2mm_P0.5mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(204.0000 mm, 140.0000 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 108.0000 mm): Footprint K34
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(185.6440 mm, 136.3820 mm): Footprint U13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 126.0000 mm): Footprint K68
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 126.0000 mm): Footprint K52
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 99.0000 mm): Footprint K33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 108.0000 mm): Footprint K74
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 117.0000 mm): Footprint K3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 108.0000 mm): Footprint K90
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 126.0000 mm): Footprint K44
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 108.0000 mm): Footprint K42
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 126.0000 mm): Footprint K84
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 108.0000 mm): Footprint K2
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(141.6440 mm, 136.3820 mm): Footprint U9
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(86.6440 mm, 136.3820 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 117.0000 mm): Footprint K19
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 126.0000 mm): Footprint K12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 99.0000 mm): Footprint K41
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 108.0000 mm): Footprint K58
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(163.6440 mm, 136.3820 mm): Footprint U11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(198.8850 mm, 89.9325 mm): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 117.0000 mm): Footprint K11
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(75.6440 mm, 136.3820 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 99.0000 mm): Footprint K17
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 99.0000 mm): Footprint K57
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(108.6440 mm, 136.3820 mm): Footprint U6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 99.0000 mm): Footprint K25
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 108.0000 mm): Footprint K66
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 126.0000 mm): Footprint K28
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 126.0000 mm): Footprint K20
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 117.0000 mm): Footprint K83
+[lib_footprint_mismatch]: Footprint 'VSSOP-8_2.3x2mm_P0.5mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(204.0000 mm, 135.0000 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(174.6440 mm, 136.3820 mm): Footprint U12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 117.0000 mm): Footprint K67
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 108.0000 mm): Footprint K18
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 99.0000 mm): Footprint K81
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 126.0000 mm): Footprint K36
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(130.6440 mm, 136.3820 mm): Footprint U8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 99.0000 mm): Footprint K73
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(152.6440 mm, 136.3820 mm): Footprint U10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 108.0000 mm): Footprint K82
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 126.0000 mm): Footprint K4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 117.0000 mm): Footprint K43
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 126.0000 mm): Footprint K60
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 99.0000 mm): Footprint K65
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(127.5800 mm, 89.9325 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 99.0000 mm): Footprint K1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 117.0000 mm): Footprint K27
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 117.0000 mm): Footprint K59
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 126.0000 mm): Footprint K76
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 108.0000 mm): Footprint K10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 126.0000 mm): Footprint K92
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(59.9325 mm, 97.5150 mm): Footprint J6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 117.0000 mm): Footprint K51
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 108.0000 mm): Footprint K26
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 99.0000 mm): Footprint K9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 99.0000 mm): Footprint K89
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 117.0000 mm): Footprint K35
+[lib_footprint_mismatch]: Footprint 'TSSOP-16_4.4x5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(196.6440 mm, 136.3820 mm): Footprint U14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 99.0000 mm): Footprint K49
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 108.0000 mm): Footprint K22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 117.0000 mm): Footprint K55
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(210.0675 mm, 97.5150 mm): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 99.0000 mm): Footprint K93
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 99.0000 mm): Footprint K45
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 99.0000 mm): Footprint K5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 99.0000 mm): Footprint K77
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 117.0000 mm): Footprint K71
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 108.0000 mm): Footprint K14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 126.0000 mm): Footprint K96
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 99.0000 mm): Footprint K37
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 126.0000 mm): Footprint K24
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 108.0000 mm): Footprint K78
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 126.0000 mm): Footprint K40
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 108.0000 mm): Footprint K94
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 117.0000 mm): Footprint K79
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 108.0000 mm): Footprint K70
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 117.0000 mm): Footprint K31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 99.0000 mm): Footprint K29
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 99.0000 mm): Footprint K61
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 99.0000 mm): Footprint K69
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 126.0000 mm): Footprint K32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(174.0000 mm, 126.0000 mm): Footprint K80
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 108.0000 mm): Footprint K62
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 126.0000 mm): Footprint K8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(163.0000 mm, 126.0000 mm): Footprint K72
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 99.0000 mm): Footprint K85
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 117.0000 mm): Footprint K7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(75.0000 mm, 108.0000 mm): Footprint K6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 99.0000 mm): Footprint K21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(196.0000 mm, 117.0000 mm): Footprint K95
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 117.0000 mm): Footprint K15
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 117.0000 mm): Footprint K47
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 99.0000 mm): Footprint K13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(97.0000 mm, 117.0000 mm): Footprint K23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 117.0000 mm): Footprint K39
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 126.0000 mm): Footprint K48
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 126.0000 mm): Footprint K64
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(108.0000 mm, 108.0000 mm): Footprint K30
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 99.0000 mm): Footprint K53
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(86.0000 mm, 126.0000 mm): Footprint K16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 108.0000 mm): Footprint K86
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 108.0000 mm): Footprint K54
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(130.0000 mm, 108.0000 mm): Footprint K46
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(119.0000 mm, 108.0000 mm): Footprint K38
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 117.0000 mm): Footprint K87
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(185.0000 mm, 126.0000 mm): Footprint K88
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(152.0000 mm, 117.0000 mm): Footprint K63
+[lib_footprint_issues]: The current configuration does not include the footprint library 'muxlib_footprints'.
+    Local override; warning
+    @(141.0000 mm, 126.0000 mm): Footprint K56
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(138.0000 mm, 87.0000 mm): PCB text '4' on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

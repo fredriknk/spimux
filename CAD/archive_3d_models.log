@@ -1,7 +1,584 @@
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.9.10 (main, Jul 19 2022, 05:36:50) [MSC v.1932 64 bit (AMD64)]'
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: (6.0.7)
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.4
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 7.0.2
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.8
 
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080), wx.Size(1080, 1920), wx.Size(1920, 1080)]
-02-07 15:56:24 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080), wx.Size(1080, 1920), wx.Size(1920, 1080)]
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+05-09 14:51:37 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 15
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 13:Starting to archive 3D models
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U5
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K50
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K91
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U7
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J2
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K75
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U1
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K34
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U13
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K68
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R5
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K52
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C2
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K33
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K74
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R2
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K3
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K90
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K44
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K42
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K84
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K2
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U9
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U4
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C5
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C1
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K19
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K12
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K41
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H1
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K58
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C4
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U11
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J4
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K11
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U3
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K17
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K57
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U6
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP1
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K25
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R3
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C10
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K66
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K28
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R7
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C6
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K20
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K83
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP3
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U2
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C14
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U12
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP4
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K67
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP5
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R1
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K18
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H3
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K81
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K36
+05-09 14:51:50 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H2
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R6
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U8
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K73
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C9
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U10
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C7
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C13
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K82
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C3
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K4
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP6
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C11
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R4
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K43
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K60
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K65
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J3
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K1
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C8
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K27
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K59
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K76
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K10
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP2
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K92
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J6
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K51
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K26
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H4
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K9
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K89
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K35
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U14
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C12
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K49
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K22
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K55
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J5
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K93
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K45
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K5
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K77
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K71
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K14
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K96
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K37
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K24
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K78
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K40
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K94
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K79
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K70
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J1
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Horizontal.wrl
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K31
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K29
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K61
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K69
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K32
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K80
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K62
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K8
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K72
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K85
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K7
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K6
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K21
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K95
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K15
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K47
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K13
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K23
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K39
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K48
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K64
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K30
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K53
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K16
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K86
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K54
+05-09 14:51:51 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K46
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K38
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K87
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K88
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K63
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: K56
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KIPRJMOD}/models/AGQ200S12Z v1.step
+05-09 14:51:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 123:Did not succeed to copy 3D models!
+('U5', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('U7', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('J2', '${KICAD6_3DMODEL_DIR}\\Connector_IDC.3dshapes\\IDC-Header_2x08_P2.54mm_Horizontal.wrl')
+('U1', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\VSSOP-8_2.3x2mm_P0.5mm.wrl')
+('U13', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('R5', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('C2', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('R2', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('U9', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('U4', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('C5', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('C1', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('C4', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('U11', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('J4', '${KICAD6_3DMODEL_DIR}\\Connector_Phoenix_MC_HighVoltage.3dshapes\\PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl')
+('U3', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('U6', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('JP1', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0805_2012Metric.wrl')
+('R3', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('C10', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('R7', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('C6', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('JP3', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0805_2012Metric.wrl')
+('U2', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\VSSOP-8_2.3x2mm_P0.5mm.wrl')
+('C14', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('U12', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('JP4', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0805_2012Metric.wrl')
+('JP5', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('R1', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('R6', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('U8', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('C9', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('U10', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('C7', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('C13', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('C3', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('JP6', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('C11', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('R4', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0603_1608Metric.wrl')
+('J3', '${KICAD6_3DMODEL_DIR}\\Connector_Phoenix_MC_HighVoltage.3dshapes\\PhoenixContact_MC_1,5_12-GF-5.08_1x12_P5.08mm_Horizontal_ThreadedFlange_MountHole.wrl')
+('C8', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('JP2', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_0805_2012Metric.wrl')
+('J6', '${KICAD6_3DMODEL_DIR}\\Connector_Phoenix_MC_HighVoltage.3dshapes\\PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl')
+('U14', '${KICAD6_3DMODEL_DIR}\\Package_SO.3dshapes\\TSSOP-16_4.4x5mm_P0.65mm.wrl')
+('C12', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_0603_1608Metric.wrl')
+('J5', '${KICAD6_3DMODEL_DIR}\\Connector_Phoenix_MC_HighVoltage.3dshapes\\PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal.wrl')
+('J1', '${KICAD6_3DMODEL_DIR}\\Connector_IDC.3dshapes\\IDC-Header_2x08_P2.54mm_Horizontal.wrl')
